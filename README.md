@@ -19,6 +19,8 @@ Launch R, set your working directory to where you've placed the files, and run t
 OUTPUT:  The code will create a text file called "Tidy.txt" in your working directory. 
 It will also keep in session the final Tidy data frame.
 
+WHAT MAKES THE DATA TIDY: Each column is named after it's contents. Any columns that do not reference the mean or standard definition have been removed. The rows have been aggregated on Activity and Subject ID, and the mean of the data found.
+
 DATA SOURCE:
 The data can be downloaded here in zipped format:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
