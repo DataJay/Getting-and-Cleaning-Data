@@ -24,7 +24,7 @@
 
 ## Switch WD to where the test files are.
 ## PLEASE NOTE: The working directory must contain the unzipped data, with it's original file structure intact.
-setwd("getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test")
+setwd("UCI HAR Dataset/test")
 
 ## Read in data
 x_test <- read.table("x_test.txt")  ## These are the actual gyro data readouts
@@ -146,7 +146,6 @@ names(Tidy)[2]  <- "Subject_ID"
 ##(do not cut and paste a dataset directly into the text box, as this may cause errors saving your submission).
 ## Back out 3 levels to original working directory
 setwd("..")  
-setwd("..")
 setwd("..")
 ## Create a text file in the original working directory.
 write.table(Tidy, "TidyData.txt", sep="\t", row.name=FALSE)
