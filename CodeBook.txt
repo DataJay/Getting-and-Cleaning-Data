@@ -7,7 +7,7 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
-Only Values for Mean and Standard Deviation are included in the Tidy dataset.  The mean of these values have been aggregated on by Subject and Activity
+PLEASE NOTE: Only Values for Mean and Standard Deviation are included in the Tidy dataset.  The mean of these values have been aggregated on by Subject and Activity
 
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
@@ -36,7 +36,7 @@ mean(): Mean value
 std(): Standard deviation
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency
 
-NOTE:The values shown are the Mean for each Subject and Activity
+PLEASE NOTE:The values shown are the Mean for each Subject and Activity
 
 
 The complete list of variables of each feature vector is available in 'features.txt'
